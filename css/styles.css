@@ -1,0 +1,132 @@
+:root{
+    --text-color-blck:#212121;
+    --accent-color: #2196F3;
+    --text-color-wht: #FFFFFF;
+    --text-color-gray:#757575;
+}
+
+body
+{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--text-color-blck);
+}
+
+.list {
+    list-style: none;
+}
+
+/* Header */
+.logo{
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.16;
+    color: var(--accent-color);
+}
+.black{
+    color: var(--text-color-blck);
+}
+.white{
+    color: var(--text-color-wht);
+}
+.header-link{
+   text-decoration: none;
+   color: var(--text-color-blck);
+}
+.header-link:hover{
+    color: var(--accent-color);
+}
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+/* Секція Герой */
+.section-hero{
+    background-color: #2F303A;
+}
+.title-hero{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--text-color-wht);
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.btn-hero{
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--text-color-wht);
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/* Секція опису роботи */
+.list{
+    list-style: none;
+}
+
+.title-description{
+ font-weight: 700;
+}
+.text-description{
+    font-weight: 400;
+    line-height: 1.71;
+    color: var(--text-color-gray);
+}
+
+/* Секція про нас */
+.title-about{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+/* Секція наша Команда */
+.team{
+    background-color: #F5F4FA;
+}
+.title-team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.name-team{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--text-color-blck);
+}
+.text-team{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--text-color-gray);
+}
+/* Секція футер */
+
+.footer{
+    background-color: var(--text-color-blck);
+}
+.footer-link{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: var(--accent-color);
+}
+
+.footer-link:focus {
+    color: var(--accent-color);
+}
