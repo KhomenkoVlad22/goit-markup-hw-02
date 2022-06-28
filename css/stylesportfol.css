@@ -1,0 +1,32 @@
+.btn{
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    background-color: #F5F4FA;;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: var(--accent-color);
+}
+.btn:focus {
+    background-color: var(--accent-color);
+}
+.work-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+color: #212121;
+
+}
+.work-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+color: #757575;
+    
+}
