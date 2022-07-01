@@ -1,6 +1,10 @@
-.btn{
+.link{
+    text-decoration: none;
+    color: currentColor;
+}
+.filter-btn{
     text-align: center;
-    font-family: "Roboto";
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -8,25 +12,25 @@
     background-color: #F5F4FA;;
     border-radius: 4px;
     cursor: pointer;
+    border: none;
     
 }
-.btn:hover{
+.filter-btn:hover{
     background-color: var(--accent-color);
+    color: var(--text-color-wht);
 }
-.btn:focus {
+.filter-btn:focus {
     background-color: var(--accent-color);
+    color: var(--text-color-wht);
 }
 .work-title{
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
-color: #212121;
+color: var(--text-color-blck);
 
 }
 .work-text{
-font-weight: 400;
 font-size: 16px;
-line-height: 1.87;
-color: #757575;
-    
+line-height: 1.87;   
 }
